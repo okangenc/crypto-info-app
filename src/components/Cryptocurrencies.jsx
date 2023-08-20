@@ -30,7 +30,7 @@ const Cryptocurrencies = ({ simplified }) => {
           <Col xs={24} sm={12} lg={6} className="crypto-card" key={currency.id}>
               <Card
                 title={`${currency.rank}. ${currency.name}`}
-                extra={<img className="crypto-image" src={currency.iconUrl} />}
+                extra={<img className="crypto-image" src={currency.iconUrl} alt="" />}
                 hoverable
                 >
                   <p>
